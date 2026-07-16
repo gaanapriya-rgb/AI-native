@@ -1,1 +1,2 @@
-A token is the basic unit of text an LLM reads and generates — not quite a word, not quite a character. It's a chunk of text (a word, part of a word, a punctuation mark, or even a space) that the model's tokenizer converts into a number, because neural networks operate on numbers, not raw text.
+A token is the basic unit of text an LLM reads and generates — not quite a word, not quite a character. 
+1.	Tokenization: Your input text is split into tokens using the tokenizer's vocabulary (typically 30,000–100,000+ possible tokens).
