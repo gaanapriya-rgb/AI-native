@@ -1,0 +1,1 @@
+•	Compute cost scales with window size. Most transformer architectures have attention mechanisms whose computational cost grows non-linearly (often roughly quadratically, though optimizations like sparse/linear attention reduce this) with context length. Longer windows generally mean slower processing and higher cost per request.
